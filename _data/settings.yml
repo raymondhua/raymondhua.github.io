@@ -16,6 +16,8 @@ menu_settings:
       url: '/technical-skills/'
     - title: 'Skills'
       url: '/skills/'
+    - title: 'Old Portfolio'
+      url: '/old-portfolio/'
     # - title: 'Blog'
     #   url: '/blog/'
 
