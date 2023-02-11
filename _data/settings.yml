@@ -10,14 +10,14 @@ menu_settings:
   menu_items:
     - title: 'Projects'
       url: '/'
-    - title: 'About Me'
-      url: '/about-me/'
-    - title: 'Technical Skills'
-      url: '/technical-skills/'
     - title: 'Skills'
       url: '/skills/'
+    - title: 'About'
+      url: '/about/'
     - title: 'GitHub'
       url: 'https://github.com/raymondhua'
+    # - title: 'Personal Skills'
+    #   url: '/personal-skills/'
     # - title: 'Blog'
     #   url: '/blog/'
 

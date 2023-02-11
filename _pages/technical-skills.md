@@ -1,6 +1,6 @@
 ---
 title: "Technical Skills"
-permalink: /technical-skills/
+permalink: /skills/
 layout: page
 author_profile: true
 accent_color: '#4C60E6'

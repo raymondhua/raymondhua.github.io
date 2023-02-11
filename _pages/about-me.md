@@ -1,7 +1,7 @@
 ---
 title: "About Me"
-permalink: /about-me/
-layout: page
+permalink: /about/
+layout: about
 author_profile: true
 ---
 
@@ -19,6 +19,4 @@ I did not know what I wanted to do when I graduated, so I decided to take a brea
 
 I am a person who is always up for a challenge. Since 2021, I've been exercising to try to lose weight; I have achieved that by having a balanced diet and going for long-distance runs.
 
-I also have a bit of creativity; when cooking, I make delicious authentic dishes that I enjoy eating, such as Butter Chicken and Meatballs. 
-
-I also have creative skills with visual artboards using Adobe Illustrator and also having to redecorate a house over the past two Summers.
+I also have a bit of creativity; when cooking, I make delicious authentic dishes that I enjoy eating, such as Butter Chicken and Meatballs. Also likes to design visual artboards using Adobe Illustrator and having to redecorate a house over the past two Summers.

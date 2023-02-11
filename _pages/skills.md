@@ -1,6 +1,6 @@
 ---
 title: "Skills"
-permalink: /skills/
+permalink: /personal-skills/
 layout: page
 author_profile: true
 ---
