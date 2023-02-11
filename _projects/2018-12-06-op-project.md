@@ -42,11 +42,11 @@ It also included other functions such as finding the top words by year, the odd 
 ## How I found this project
 I initially found this very hard since I was put in a team of two, and one of us would have to look after the website by myself, but after learning how to use web frameworks in the first semester of that year, I found it very easy. I found the data analysis part very interesting, which led me to take a paper about data science years later. I learned the agile purposes of the software development cycle by focusing on planning, trying to find the task out there and having to test it to see if it was working.
 
-I also had fun trying out the timeline of how frequently words have been used over time, especially when a major news site had been extensively writing articles about former President Donald Trump since 2015.
+I also had fun trying out the timeline of how frequently words have been used, primarily when a major news site had extensively written articles about former President Donald Trump since 2015.
 
 ## What I could have done next time
 * **Made the site look good**: I used a simple template from Bootstrap. Looking back at it now, it does not look appealing to the viewer. What I could have done was to find what templates would appeal to the audience and make sure it is modern for the next decade.
-* **Split the API service from the website**: When running the website after I make changes, it opens up every single model, which takes up to 10GB of RAM after loading all models, which usually takes about 5-10 minutes. What I should have done during my time doing this project was that once the API was completed, I should have split the API and the website. 
+* **Split the API service from the website**: When running the website after I make changes, it opens up every single model, which takes up to 10GB of RAM after loading all models, which usually takes about 5-10 minutes. What I should have done during this project was that once the API was completed, I should have split the API and the website. 
 
 ## Skills, learning goals and outcomes:
 - Learning a field within the sector I have not come across.

@@ -16,8 +16,8 @@ menu_settings:
       url: '/technical-skills/'
     - title: 'Skills'
       url: '/skills/'
-    - title: 'Old Portfolio'
-      url: 'https://raymondhua.github.io/old-portfolio/'
+    - title: 'GitHub'
+      url: 'https://github.com/raymondhua'
     # - title: 'Blog'
     #   url: '/blog/'
 
