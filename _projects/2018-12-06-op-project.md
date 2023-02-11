@@ -2,7 +2,7 @@
 title: Media Analytics
 subtitle: Third year project at Otago Polytechnic.
 date: 2018-12-06 00:00:00
-description: This is a demo post that shows what you can do inside portfolio and blog posts. We’ve included everything you need to create engaging posts and case studies to show off your work in a beautiful way.
+description: Created a data visualisation-driven website using web-scraped models the client provided alongside artificial intelligence capabilities.
 featured_image: op-project/timeline/trump.png
 accent_color: '#4C60E6'
 gallery_images:
