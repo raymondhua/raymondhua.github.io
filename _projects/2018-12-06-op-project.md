@@ -1,6 +1,6 @@
 ---
-title: Third year project - Media Analytics
-subtitle: High-fidelity mobile app designs for a super awesome social media company.
+title: Media Analytics
+subtitle: Third year project at Otago Polytechnic.
 date: 2018-12-06 00:00:00
 description: This is a demo post that shows what you can do inside portfolio and blog posts. We’ve included everything you need to create engaging posts and case studies to show off your work in a beautiful way.
 featured_image: op-project/timeline/trump.png
@@ -11,7 +11,7 @@ gallery_images:
 
 ## Client details
 David Rozado  
-Lecturer
+Lecturer  
 Otago Polytechnic  
 
 ## Summary
