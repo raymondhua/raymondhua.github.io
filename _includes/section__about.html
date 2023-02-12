@@ -5,7 +5,15 @@
   <div class="wrap grid">
 
     <div class="about__image">
-      <img src="{{ '/images/profile.jpg' | relative_url }}" alt="">
+      {% if site.data.settings.profile_settings.profile_image %}
+      <a href="{{ site.baseurl }}/" class="header__logo">
+        <img src="{{ site.data.settings.profile_settings.profile_image | relative_url }}" alt="">
+      </a>
+      {% else %}
+      <a href="{{ site.baseurl }}/" class="header__title">
+        {{ site.data.settings.basic_settings.site_title }}
+      </a>
+      {% endif %}
 
       {% include component-socials.html %}
     </div>
