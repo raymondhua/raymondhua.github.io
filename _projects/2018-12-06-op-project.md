@@ -48,10 +48,9 @@ I also had fun trying out the timeline of how frequently words have been used, p
 * **Made the site look good**: I used a simple template from Bootstrap. Looking back at it now, it does not look appealing to the viewer. What I could have done was to find what templates would appeal to the audience and make sure it is modern for the next decade.
 * **Split the API service from the website**: When running the website after I make changes, it opens up every single model, which takes up to 10GB of RAM after loading all models, which usually takes about 5-10 minutes. What I should have done during this project was that once the API was completed, I should have split the API and the website. 
 
-## Skills, learning goals and outcomes:
-- Learning a field within the sector I have not come across.
+## Outcomes:
 - Implementing code from another website that the client had made.
-- Communicated with the client efficiently. 
+- Communicated with the client efficiently and following the Agile methodlogy. 
 
 ## Screenshots
 {% include post-components/gallery.html
