@@ -81,6 +81,8 @@ Django
 [Linked on GitHub](https://github.com/raymondhua/media-analytics)
 
 ## Columbia Journalism Review
+The project result was published in a Columbia Journalism Review (CJR) article, explaining how extensively the newspaper company covered the then-President of the United States more than any other president in history.
+
 [CJR article](https://www.cjr.org/covering_the_election/new-york-times-trump.php)
 
 ### Resources
