@@ -13,6 +13,13 @@ collections:
   projects:
     output: true
     permalink: /project/:slug
+  archive:
+    output: true
+    permalink: /archive/:slug
+  # drafts:
+  #   output: true
+  #   permalink: /draft/:slug
+
 
 defaults:
   -
@@ -36,6 +43,18 @@ defaults:
     scope:
       path: ""
       type: "projects"
+    values:
+      layout: "project"
+  -
+    scope:
+      path: ""
+      type: "archive"
+    values:
+      layout: "project"
+  -
+    scope:
+      path: ""
+      type: "drafts"
     values:
       layout: "project"
 
