@@ -60,11 +60,9 @@
 		{{ site.data.settings.advanced_settings.custom_styles }}
 	</style>
 	{% endif %}
-
-	{% if site.data.settings.advanced_settings.analytics_code %}
+	{% if jekyll.environment == "production" and site.data.settings.advanced_settings.analytics_code %}
 	<!-- Google tag (gtag.js) -->
 	{% include ganalytics.html %}
-	
 	{% endif %}
 
 	{% if site.data.settings.advanced_settings.header_js %}
@@ -111,7 +109,6 @@
 			data-page-title="{% if page.url == "/" %}{{ site.data.settings.basic_settings.site_title }}{% else %}{{ page.title }}{% endif %}">
 			
 			{% include component__contact.html %}
-			
 			{{ content }}
 
 		</div>
