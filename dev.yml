@@ -17,7 +17,7 @@ collections:
     output: true
     permalink: /archive/:slug
   drafts:
-    output: false
+    output: true
     permalink: /draft/:slug
 
 
