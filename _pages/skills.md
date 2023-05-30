@@ -1,10 +1,12 @@
 ---
-title: "Technical Skills"
+title: "Skills"
 permalink: /skills/
 layout: page
 author_profile: true
 accent_color: '#4C60E6'
 ---
+
+# Technical
 
 | Programming                          |
 |-------------------------------|
