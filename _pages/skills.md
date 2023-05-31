@@ -101,7 +101,7 @@ accent_color: '#4C60E6'
   <table class="skills-table">
     <thead>
     <tr>
-      <th colspan="3"><strong>Virtualisation</strong></th>
+      <th colspan="3"><strong>Operating systems</strong></th>
     </tr>
     </thead>
     <tbody>
@@ -121,7 +121,7 @@ accent_color: '#4C60E6'
   <table class="skills-table">
     <thead>
     <tr>
-      <th colspan="2"><strong>Virtualisation</strong></th>
+      <th colspan="2"><strong>Cloud computing</strong></th>
     </tr>
     </thead>
     <tbody>
@@ -139,15 +139,19 @@ accent_color: '#4C60E6'
   <table class="skills-table">
     <thead>
     <tr>
-      <th colspan="1"><strong>Automation</strong></th>
+      <th colspan="3"><strong>Automation (IAC)</strong></th>
     </tr>
     </thead>
     <tbody>
     <tr>
       <td><img class="centre-aligned" src="/images/ts-icons/automation/puppet.png" alt="image not found" width="70px"></td>
+      <td><img class="centre-aligned" src="/images/ts-icons/automation/terraform.png" alt="image not found" width="70px"></td>
+      <td><img class="centre-aligned" src="/images/ts-icons/automation/vagrant.png" alt="image not found" width="70px"></td>
     </tr>
     <tr>
       <td><strong>Puppet</strong></td>
+      <td><strong>Terraform</strong></td>
+      <td><strong>Vagrant</strong></td>
     </tr>
     </tbody>
   </table>
