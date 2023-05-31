@@ -6,7 +6,7 @@ layout: default
 	<header class="post__header header--single">
 		
 		<div class="wrap">
-			<input class="button--fill --leftFill --mediumSize " type="button" id="technicalButton" value="Technical" onClick="showTechnical();"/><input class="button--fill --rightFill --mediumSize" type="button" id="softSkillsButton" value="Soft Skills" onClick="showSoftSkills();"/>
+			<input class="button--fill --leftFill --mediumSize --active" type="button" id="technicalButton" value="Technical" onClick="showTechnical();"/><input class="button--fill --rightFill --mediumSize" type="button" id="softSkillsButton" value="Soft Skills" onClick="showSoftSkills();"/>
 		</div>
 
 	</header>
@@ -25,28 +25,34 @@ layout: default
 
 </div>
 <script>
-    onLoad();
+	const technical = "technical";
+	const softSkills = "softSkills";
+	const technicalDiv = getElement(technical);
+	const softSkillsDiv = getElement(softSkills);
+	const technicalButton = getButton(technical);
+	const softSkillsButton = getButton(softSkills);
     function showTechnical() {
-      	$("#softSkills").hide("slow");
-      	$("#technical").show("slow");
-	  	toggleButtons("technicalButton", "softSkillsButton");
+		$("#softSkills").hide("slow");
+		$("#technical").show("slow");
+	  	toggleButtons(technicalButton, softSkillsButton);
     }
     function showSoftSkills() {
-      	$("#technical").hide("slow");
+		$("#technical").hide("slow");
       	$("#softSkills").show("slow");
-		toggleButtons("softSkillsButton", "technicalButton");
+		toggleButtons(softSkillsButton, technicalButton);
     }
-	function onLoad(){
-		document.getElementById('softSkills').style.display = 'none';
-		document.getElementById("technicalButton").disabled = true;
-		document.getElementById("technicalButton").classList.add("--active");
-	}
 	function toggleButtons(active, disactive){
-		var activeButton = document.getElementById(active);
-		var disactiveButton = document.getElementById(disactive);
+		var activeButton = getElement(active);
+		var disactiveButton = getElement(disactive);
 		activeButton.disabled = true;
 		activeButton.classList.add("--active");
 		disactiveButton.disabled = false;
 		disactiveButton.classList.remove("--active");
+	}
+	function getElement(string){
+		return document.getElementById(technical);
+	}
+	function getButton(string){
+		return string + "Button";
 	}
 </script>
