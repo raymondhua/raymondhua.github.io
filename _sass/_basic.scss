@@ -220,9 +220,11 @@ textarea {
 	text-align: center;
 }
 
-.button-wrap {
-	width: 80%;
-	display: block !important;
-	margin-left: auto !important;
-	margin-right: auto !important;
+@media only screen and (min-width: 768px) {
+	.button-wrap {
+		width: 80%;
+		display: block !important;
+		margin-left: auto !important;
+		margin-right: auto !important;
+	}
 }
