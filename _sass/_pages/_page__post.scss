@@ -274,7 +274,7 @@
   }
 
   @include mq(tabletp) {
-    .post__header {
+    .post__header:not(.skills-header) {
       padding-bottom: 80px;
     }
 

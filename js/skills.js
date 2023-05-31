@@ -1,16 +1,15 @@
-technicalButton.disabled = false;
 function showTechnical() {
-    $("#softSkills").hide("slow");
+    $("#general").hide("slow");
     $("#technical").show("slow");
-    toggleButtons("technicalButton", "softSkillsButton");
-}
-function showSoftSkills() {
-    $("#technical").hide("slow");
-    $("#softSkills").show("slow");
-    if (getElement("softSkills").classList.contains('hide-at-first')) {
-        getElement("softSkills").classList.remove("hide-at-first");
+    if (getElement("technical").classList.contains('hide-at-first')) {
+        getElement("technical").classList.remove("hide-at-first");
     }
-    toggleButtons("softSkillsButton", "technicalButton");
+    toggleButtons("technicalButton", "generalButton");
+}
+function showGeneral() {
+    $("#technical").hide("slow");
+    $("#general").show("slow");
+    toggleButtons("generalButton", "technicalButton");
 }
 function toggleButtons(active, disactive){
     var activeButton = getElement(active);
