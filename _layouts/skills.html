@@ -1,0 +1,52 @@
+---
+layout: default
+---
+<div class="page-post">
+
+	<header class="post__header header--single">
+		
+		<div class="wrap">
+			<input class="button--fill --leftFill --mediumSize " type="button" id="technicalButton" value="Technical" onClick="showTechnical();"/><input class="button--fill --rightFill --mediumSize" type="button" id="softSkillsButton" value="Soft Skills" onClick="showSoftSkills();"/>
+		</div>
+
+	</header>
+
+	<section class="post-full">
+
+		<div class="wrap">
+
+			<article class="post__content {% if page.highlight_first %}highlight-first{% endif %}">
+				{{ page.content }}
+			</article>
+
+		</div>
+
+	</section>
+
+</div>
+<script>
+    onLoad();
+    function showTechnical() {
+      	$("#softSkills").hide("slow");
+      	$("#technical").show("slow");
+	  	toggleButtons("technicalButton", "softSkillsButton");
+    }
+    function showSoftSkills() {
+      	$("#technical").hide("slow");
+      	$("#softSkills").show("slow");
+		toggleButtons("softSkillsButton", "technicalButton");
+    }
+	function onLoad(){
+		document.getElementById('softSkills').style.display = 'none';
+		document.getElementById("technicalButton").disabled = true;
+		document.getElementById("technicalButton").classList.add("--active");
+	}
+	function toggleButtons(active, disactive){
+		var activeButton = document.getElementById(active);
+		var disactiveButton = document.getElementById(disactive);
+		activeButton.disabled = true;
+		activeButton.classList.add("--active");
+		disactiveButton.disabled = false;
+		disactiveButton.classList.remove("--active");
+	}
+</script>

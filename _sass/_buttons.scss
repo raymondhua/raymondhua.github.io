@@ -82,6 +82,19 @@
     padding: 13px 20px 14px;
     border-radius: 40px;
 
+    &.--rightFill{
+      border-top-left-radius: 0px;
+      border-bottom-left-radius: 0px;
+    }
+    &.--leftFill{
+      border-top-right-radius: 0px;
+      border-bottom-right-radius: 0px;
+    }
+    &.--mediumSize{
+      width: 50%;
+      height: 80px;
+      font-size: 20px;
+    }
     &:hover {
       color: white;
       background-color: darken($color: $accent-color, $amount: 5);
@@ -89,6 +102,10 @@
 
     &:active {
       transform: scale(0.98);
+      background-color: darken($color: $accent-color, $amount: 5);
+    }
+    &.--active {
+      background-color: darken($color: $accent-color, $amount: 22);
     }
   }
 
