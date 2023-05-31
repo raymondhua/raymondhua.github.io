@@ -24,35 +24,3 @@ layout: default
 	</section>
 
 </div>
-<script>
-	const technical = "technical";
-	const softSkills = "softSkills";
-	const technicalDiv = getElement(technical);
-	const softSkillsDiv = getElement(softSkills);
-	const technicalButton = getButton(technical);
-	const softSkillsButton = getButton(softSkills);
-    function showTechnical() {
-		$("#softSkills").hide("slow");
-		$("#technical").show("slow");
-	  	toggleButtons(technicalButton, softSkillsButton);
-    }
-    function showSoftSkills() {
-		$("#technical").hide("slow");
-      	$("#softSkills").show("slow");
-		toggleButtons(softSkillsButton, technicalButton);
-    }
-	function toggleButtons(active, disactive){
-		var activeButton = getElement(active);
-		var disactiveButton = getElement(disactive);
-		activeButton.disabled = true;
-		activeButton.classList.add("--active");
-		disactiveButton.disabled = false;
-		disactiveButton.classList.remove("--active");
-	}
-	function getElement(string){
-		return document.getElementById(string);
-	}
-	function getButton(string){
-		return string + "Button";
-	}
-</script>
