@@ -6,7 +6,7 @@ author_profile: true
 accent_color: '#4C60E6'
 ---
 
-<!-- <div id="general">
+<div id="general">
 
 <h3>Problem-solving skills</h3>
 <p>I have excellent logical and technical thinking skills. Wherever a problem arises, I tend to find what the issue is by going over an error and resolving it by knowing how. If I could not fix it, I asked my other team members about the problem or researched the internet for solutions. These problem-solving skills extend my knowledge and are essential in the Information Technology sector.</p>
@@ -73,7 +73,7 @@ accent_color: '#4C60E6'
 </div> -->
 
 <!-- UNCOMMENT LINE BELOW WHEN COMPLETED -->
-<!-- <div id="tools" class="hide-at-first"> -->
+<!-- <div id="tools" class="hide-at-first">
 <div id="tools">
 
   <h3 id="tools-section">Tools</h3>
