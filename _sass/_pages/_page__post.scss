@@ -104,7 +104,15 @@
         }
       }
     }
-
+    .skills-table {
+      min-width: 0px !important;
+      text-align: center !important;
+    }
+   .centre-aligned {
+      display: block !important;
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
     sup a.footnote {
       display: inline-block;
       margin-left: 5px;
@@ -266,7 +274,7 @@
   }
 
   @include mq(tabletp) {
-    .post__header {
+    .post__header:not(.skills-header) {
       padding-bottom: 80px;
     }
 
