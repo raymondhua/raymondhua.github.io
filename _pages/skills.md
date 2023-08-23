@@ -15,7 +15,7 @@ accent_color: '#4C60E6'
 <p>I find documentation is significant for anything. Whenever someone replaces my position, I always keep excellent documentation on everything. My type of documentation is to have a document full of step-by-step instructions and comments on every line in the code on how and why it works. It is essential for the next person taking over from me to know what it means, especially if they have no experience.</p>
 
 <h3>Patience</h3>
-<p>I find patience very critical. In my course paper, I was paired up with someone who is a self-claimed slow typer. That does not concern me because I can wait for them to finish what they are doing before moving on to the next task. During that time, I can do something else related to the project. This skill is essential within the Information Technology sector as you can be paired up with someone different.</p>
+<p>I find patience very critical. In one of my courses this year, I was paired up with someone who is a self-claimed slow typer. That does not concern me because I can wait for them to finish what they are doing before moving on to the next task. During that time, I can do something else related to the project. This skill is essential within the Information Technology sector as you can be paired up with someone different.</p>
 
 <h3>Communication</h3>
 <p>Communication is an essential skill in general. I have the skills to communicate with people in a nice and efficiently matter. When working in retail, there were times with having to deal with customer complaints. I deal with them or let the people above me deal with them if I don’t know how to respond. During the meetings with my client, I ask precise questions. This is to ensure they get a good result in the end.</p>
@@ -29,6 +29,7 @@ accent_color: '#4C60E6'
   <li>Successfully meet deadlines for projects by submitting assignments on time.</li>
   <li>Able to find related work for possible solutions and handle team members’ feedback.</li>
   <li>Communicated with other team members by bringing up ideas and assigning tasks to complete between individuals.</li>
+  <li>Able to find related work for possible solutions and handle team members’ feedback.</li>
 </ul>
 
 </div>
