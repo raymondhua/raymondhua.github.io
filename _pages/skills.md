@@ -6,7 +6,7 @@ author_profile: true
 accent_color: '#4C60E6'
 ---
 
-<div id="general">
+<!-- <div id="general">
 
 <h3>Problem-solving skills</h3>
 <p>I have excellent logical and technical thinking skills. Wherever a problem arises, I tend to find what the issue is by going over an error and resolving it by knowing how. If I could not fix it, I asked my other team members about the problem or researched the internet for solutions. These problem-solving skills extend my knowledge and are essential in the Information Technology sector.</p>
@@ -34,7 +34,48 @@ accent_color: '#4C60E6'
 </div>
 
 <div id="technical" class="hide-at-first">
+<h3 id="technical-section">Technical skills</h3>
+<ul>
+  <li>Utilised productive and team-collaborative software such as Microsoft 365, Google Workplace and Zoom.</li>
+  <li>Knowledge of algorithms and data structures.</li>
+  <li>Created REST and GraphQL services and integrated them using an ActiveMQ message broker and Apache Camel to route the messages to their destinations.</li>
+</ul>
 
+<h3 id="technical-section">Programming</h3>
+<ul>
+  <li>Understands the SOLID principles</li>
+  <li>Knowledge of algorithms and data structures.</li>
+  <li>Created REST and GraphQL services and integrated them using an ActiveMQ message broker and Apache Camel to route the messages to their destinations.</li>
+</ul>
+
+<h3>Agile</h3>
+<ul>
+  <li>Understands the SOLID principles</li>
+  <li>Knowledge of algorithms and data structures.</li>
+  <li>Created REST and GraphQL services and integrated them using an ActiveMQ message broker and Apache Camel to route the messages to their destinations.</li>
+</ul>
+
+<h3>Clients</h3>
+<ul>
+  <li>Understands the SOLID principles</li>
+  <li>Knowledge of algorithms and data structures.</li>
+  <li>Created REST and GraphQL services and integrated them using an ActiveMQ message broker and Apache Camel to route the messages to their destinations.</li>
+</ul>
+
+<h3>Project management</h3>
+<ul>
+  <li>Understands the SOLID principles</li>
+  <li>Knowledge of algorithms and data structures.</li>
+  <li>Created REST and GraphQL services and integrated them using an ActiveMQ message broker and Apache Camel to route the messages to their destinations.</li>
+</ul>
+
+</div> -->
+
+<!-- UNCOMMENT LINE BELOW WHEN COMPLETED -->
+<!-- <div id="tools" class="hide-at-first"> -->
+<div id="tools">
+
+  <h3 id="tools-section">Tools</h3>
   <table class="skills-table">
     <thead>
     <tr>
@@ -218,12 +259,5 @@ accent_color: '#4C60E6'
     </tr>
     </tbody>
   </table>
-
-<h3>Other technical skills</h3>
-<ul>
-  <li>Utilised productive and team-collaborative software such as Microsoft 365, Google Workplace and Zoom.</li>
-  <li>Knowledge of algorithms and data structures.</li>
-  <li>Created REST and GraphQL services and integrated them using an ActiveMQ message broker and Apache Camel to route the messages to their destinations.</li>
-</ul>
 
 </div>

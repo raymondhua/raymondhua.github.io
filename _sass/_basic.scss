@@ -218,6 +218,9 @@ textarea {
 
 .skills-header {
 	text-align: center;
+	@media only screen and (max-width: 768px) {
+		padding: 40px 0 0px !important;
+	}
 }
 
 @media only screen and (min-width: 768px) {
@@ -228,3 +231,37 @@ textarea {
 		margin-right: auto !important;
 	}
 }
+@media only screen and (max-width: 768px) {
+	.button-wrap {
+		padding: 24px 0px 0px;
+	}
+}
+.menu__list__skills {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+	padding-left: 0px !important;
+	margin-top: 24px;
+  
+	.menu__list__item {
+	  margin-bottom: 24px;
+	}
+  
+	.menu__list__item__link,
+	.menu__cta__link {
+	  font-size: $h4-size-small;
+	  font-weight: $h4-weight;
+	  line-height: $h4-lineheight;
+	  letter-spacing: $h4-spacing-small;
+	  text-transform: none;
+  
+	  &.active-link {
+		color: $accent-color;
+	  }
+	}
+  
+	.menu__cta__link {
+	  color: $accent-color;
+	}
+  
+	}
